@@ -358,62 +358,62 @@ Implementation of **Context Addendum 1**: Weekly pickups are scheduled according
 ---
 
 ### Phase 3: Workforce HRM, Drivers & Daily Cash Float Desk
-- [ ] **Task 3.1**: Build **Employee & Labor Roster**:
+- [x] **Task 3.1**: Build **Employee & Labor Roster**:
   - Unified directory for Drivers, Pickers, and Yard Sorters.
   - KYC verification module (Aadhaar, Driving License, Police check review & approval).
   - Compensation tier setup (Fixed wage vs per-kg incentive).
-- [ ] **Task 3.2**: Build **Morning Cash Float Issuance Console**:
+- [x] **Task 3.2**: Build **Morning Cash Float Issuance Console**:
   - One-click morning cash float assignment to field pickers with digital signature capture.
-- [ ] **Task 3.3**: Build **Evening Shift Cash Settlement & Audit Desk**:
+- [x] **Task 3.3**: Build **Evening Shift Cash Settlement & Audit Desk**:
   - Auto-fetch verified cash pickup totals for the picker.
   - Calculate: $\text{Opening Float} - \text{Total Cash Paid} - \text{Fuel/Toll Expenses} = \text{Expected Return}$.
   - Record physical cash received and flag shortages with audit comments.
-- [ ] **Task 3.4**: Build **Daily Attendance & Performance Leaderboard** (Kg collected, pickups completed, on-time arrival rate).
+- [x] **Task 3.4**: Build **Daily Attendance & Performance Leaderboard** (Kg collected, pickups completed, on-time arrival rate).
 
 ---
 
 ### Phase 4: Multi-Channel Inward Scrap Receiving Desk
-- [ ] **Task 4.1**: Build **Unified Inward Intake Ledger**:
+- [x] **Task 4.1**: Build **Unified Inward Intake Ledger**:
   - Tabbed overview: All Inward, Field Pickups (`AKP-XXXX`), Yard Walk-ins, B2B Commercial.
   - Real-time gross kg, wastage kg, net kg, and total paid out tallies.
-- [ ] **Task 4.2**: Build **Yard Gate Walk-in Point-of-Sale (POS) Desk**:
+- [x] **Task 4.2**: Build **Yard Gate Walk-in Point-of-Sale (POS) Desk**:
   - Rapid walk-in intake entry interface optimized for touchscreen/numpad.
   - Category and product selection with auto-applied active rates.
   - Instant weighing input with deduction/wastage reasoning.
   - Thermal 3-inch receipt voucher printing and Cash/UPI payout trigger.
-- [ ] **Task 4.3**: Build **B2B Bulk Cleanout & Weighbridge Entry Desk**:
+- [x] **Task 4.3**: Build **B2B Bulk Cleanout & Weighbridge Entry Desk**:
   - Truck gross and tare weighbridge recording with GST e-Way bill attachments.
-- [ ] **Task 4.4**: Build **Daily Inward Reconciler**:
+- [x] **Task 4.4**: Build **Daily Inward Reconciler**:
   - Verification of physical scrap brought into the yard vs sum of picker app vouchers.
 
 ---
 
 ### Phase 5: Holiday Calendar, Route Planning & Scheduling
-- [ ] **Task 5.1**: Build **Interactive Operations Holiday Calendar**:
+- [x] **Task 5.1**: Build **Interactive Operations Holiday Calendar**:
   - Monthly / Year calendar grid supporting national, regional, and municipal holidays.
   - Holiday creator with scope selection (`ALL` vs specific vehicles/divisions).
   - Shift rule selection: `NEXT_WORKING_DAY` vs `NEXT_WEEK_SAME_DAY`.
-- [ ] **Task 5.2**: Build **Holiday Impact Simulation Modal**:
+- [x] **Task 5.2**: Build **Holiday Impact Simulation Modal**:
   - Real-time preview showing affected route runs and customer pickup count before saving.
   - Automated customer notification queue generation.
-- [ ] **Task 5.3**: Build **Weekly Route Run Master Matrix**:
+- [x] **Task 5.3**: Build **Weekly Route Run Master Matrix**:
   - Grid mapping Vehicles $\times$ Divisions $\times$ Weekdays.
   - Drag-and-drop stop re-sequencer and vehicle load capacity progress bar.
-- [ ] **Task 5.4**: Build **Bulk Order Auto-Assign & Unassigned Exception Queue**:
+- [x] **Task 5.4**: Build **Bulk Order Auto-Assign & Unassigned Exception Queue**:
   - Real-time alert feed for bulk pickups requiring manual assignment.
 
 ---
 
 ### Phase 6: Yard Inventory, Outward Sales & P&L Analytics (R&D Modules)
-- [ ] **Task 6.1**: Build **Yard Stock Inventory Ledger**:
+- [x] **Task 6.1**: Build **Yard Stock Inventory Ledger**:
   - Track tonnage of Raw Unsorted, Sorting-in-Progress, and Baled Ready-for-Sale materials.
-- [ ] **Task 6.2**: Build **Outward Mill & Smelter Dispatch Desk**:
+- [x] **Task 6.2**: Build **Outward Mill & Smelter Dispatch Desk**:
   - Create sales orders for recyclers (Jindal, Paper Mills, Plastic Pelletizers).
   - Record outward dispatch weights, rate per kg, gate pass generation, and payment realization.
-- [ ] **Task 6.3**: Build **Operations Unit Economics & P&L Dashboard**:
+- [x] **Task 6.3**: Build **Operations Unit Economics & P&L Dashboard**:
   - Aggregate Buying Cost + Vehicle Rents + Fuel + Labor Wages vs Outward Mill Revenue.
   - Net Gross Profit per Category and Realized Margin per Kg.
-- [ ] **Task 6.4**: Build **Fraud Sentinel & Anomaly Alert Monitor**:
+- [x] **Task 6.4**: Build **Fraud Sentinel & Anomaly Alert Monitor**:
   - Automated flags for high-wastage pickers, weight mismatches, and float shortages.
 
 ---
